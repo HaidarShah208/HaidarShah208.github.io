@@ -1,0 +1,389 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: white;
+}
+
+.new ul li {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.new button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 5px;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    background-color: #06BBCC;
+}
+
+.mainn h4 {
+    color: #06BBCC;
+    margin-bottom: -190px;
+}
+
+.mainn h2 {
+    margin-top: 10px;
+    color: #DC3545;
+    font-weight: bold;
+}
+
+.mainn p {
+    color: #DC3545;
+    margin-top: 20px;
+}
+
+.mainn #n {
+    padding: 18px 33px;
+    margin-left: 30px;
+    border: none;
+}
+
+.mainn #m {
+    padding: 18px 39px;
+    margin-left: 30px;
+    border: none;
+}
+
+.mai h4 {
+    color: #06BBCC;
+}
+
+.mai h2 {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.mai p {
+    color: white;
+    margin-top: 20px;
+}
+
+.mai #n {
+    padding: 18px 33px;
+    margin-left: 30px;
+    border: none;
+}
+
+.mai #m {
+    padding: 18px 39px;
+    margin-left: 30px;
+    border: none;
+}
+
+.inner .no1 {
+    background-color: #F0FBFC;
+    padding: 27px 10px;
+    margin-left: px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.inner .no1:hover {
+    background-color: #60d9e4;
+}
+
+.inner .no1 img {
+    margin-left: 85px;
+    margin-bottom: 30px;
+    color: #06BBCC;
+}
+
+.inner .no1 h4 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.inner .no1 p {
+    text-align: center;
+}
+
+.most .snd {
+    margin-top: 70px;
+}
+
+.snd h4 {
+    color: #06BBCC;
+    font-size: 30px;
+}
+
+.snd h2 {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.snd p {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.snd .i {
+    margin-top: 70px;
+}
+
+.snd .i ol {
+    margin-top: 20px;
+}
+
+.snd ol li {
+    display: inline;
+    margin-right: 90px;
+}
+
+.snd button {
+    padding: 18px 33px;
+    margin-left: 30px;
+    border: none;
+    margin-top: 30px;
+}
+
+.uue {
+    text-align: center;
+}
+
+.uue h3 {
+    margin-top: 35px;
+    color: #06BBCC;
+    margin-bottom: 20px;
+}
+
+.more {
+    text-align: center;
+}
+
+.more h3 {
+    margin-top: 35px;
+    color: #06BBCC;
+    margin-bottom: 20px;
+}
+
+.third .thd {
+    background-color: #F0FBFC;
+    text-align: center;
+}
+
+.third .thd h2 {
+    margin-top: 40px;
+}
+
+.third .thd img {
+    margin-bottom: 15px;
+}
+
+.last {
+    text-align: center;
+}
+
+.last h3 {
+    margin-top: 55px;
+    color: #06BBCC;
+    margin-bottom: 20px;
+}
+
+.mists .mist {
+    background-color: #93cacf;
+    text-align: center;
+}
+
+.mists .mist h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.ytty {
+    text-align: center;
+}
+
+.ytty h3 {
+    margin-top: 55px;
+    color: #06BBCC;
+    margin-bottom: 20px;
+}
+
+.happy .happ {
+    text-align: center;
+}
+
+.happy .happ img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-top: 30px;
+}
+
+.happy .happ h4 {
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.happy .happ h5 {
+    color: #686E70;
+}
+
+.happy .happ p {
+    background-color: #d9eaeb;
+    padding: 8px;
+}
+
+.footer ul li {
+    font-weight: bold;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hgh input {
+    width: 260px;
+    padding: 12px;
+    position: relative;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+}
+
+
+/* media Query */
+
+@media only screen and (max-width: 1196px) {
+    nav {
+        width: 100%;
+    }
+    .mists .mist {
+        width: 250px;
+    }
+    .mists .mist #mm {
+        width: 250px;
+        height: 250px;
+    }
+    .mists .mist #aaa {
+        width: 50px;
+        height: 50px;
+    }
+    .mists .mist h3 {
+        font-size: 20px;
+    }
+    .mists .mist h5 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1186px) {
+    nav {
+        width: 100%;
+    }
+    nav .head #nq {
+        display: none;
+    }
+    .third .thd {
+        width: 300px;
+    }
+    .third .thd #ss {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1016px) {
+    nav h3 {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .mainn h2 {
+        font-size: 20px;
+    }
+    .mainn p {
+        font-size: 18px;
+    }
+    .mainn button {
+        width: 120px;
+        height: 65px;
+        padding: -15px 5px;
+    }
+    .mai h2 {
+        font-size: 20px;
+    }
+    .mai button {
+        width: 120px;
+        height: 65px;
+        padding: -15px 5px;
+    }
+    .inner .no1 img {
+        margin-left: 49px;
+    }
+    .most .snd h4 {
+        font-size: 25px;
+    }
+    .most .snd h2 {
+        font-size: 30px;
+    }
+    .most .snd p {
+        font-size: 15px;
+        margin-bottom: -21px;
+    }
+    .most .snd h4 {
+        font-size: 25px;
+    }
+    .snd .i {
+        margin-top: 70px;
+    }
+    .snd .i ol li {
+        margin-right: 40px;
+    }
+    .most .snd button {
+        margin-bottom: -30px;
+    }
+    .third .thd {
+        width: 250px;
+    }
+    .third .thd #ss {
+        width: 250px;
+    }
+    .mists .mist {
+        width: 210px;
+    }
+    .mists .mist #mm {
+        width: 190px;
+        height: 200px;
+    }
+    .mists .mist #aaa {
+        width: 35px;
+        height: 35px;
+    }
+    .footer .hgh input {
+        position: relative;
+    }
+    .footer .hgh button {
+        margin-top: 170px;
+        position: absolute;
+        margin-left: -60px;
+    }
+}
+
+@media only screen and(max-width:1200px) {
+    .footer .hgh input {
+        width: 200px;
+        height: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and(max-width:760px) {
+    .third .thd {
+        margin-top: 30px;
+    }
+}
